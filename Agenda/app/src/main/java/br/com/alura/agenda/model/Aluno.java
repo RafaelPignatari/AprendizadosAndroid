@@ -22,4 +22,9 @@ public class Aluno {
     public String getEmailAluno() {
         return emailAluno;
     }
+
+    @Override
+    public String toString() {
+        return getNomeAluno();
+    }
 }
